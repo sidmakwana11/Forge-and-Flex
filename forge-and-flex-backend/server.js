@@ -5,7 +5,7 @@ const mongoose = require('mongoose');
 const userRoutes = require('./routes/memberRoutes');
 
 // Correct MongoDB connection string
-const dbURL = "mongodb+srv://Siddharth2003:%40Sidmak2003@forgeandflex.9e8a0.mongodb.net/forgeandflex?retryWrites=true&w=majority";
+const dbURL = "mongodb+srv://<username>:<password>@forgeandflex.9e8a0.mongodb.net/forgeandflex?retryWrites=true&w=majority";
 
 // Connect to MongoDB
 const connectDB = async () => {
